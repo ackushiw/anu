@@ -37,9 +37,9 @@
   },
   // Extension: ESLint
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.fixAll.stylelint": true,
-    "source.organizeImports": true,
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.organizeImports": "explicit"
   },
   "eslint.format.enable": true,
   "eslint.validate": [
